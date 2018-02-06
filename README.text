@@ -1,0 +1,91 @@
+# Learn a little about Bitbucket, SourceTree, and Git
+
+These instructions require Atlassian SourceTree.  If you don't have SourceTree installed, [download it now before continuing](http://sourcetreeapp.com/?utm_source=bitbucket&utm_medium=tutorial_repo_link&utm_campaign=sourcetree-text).
+This repository is a sample repository, so don't be afraid to make mistakes; that is part of learning.
+
+- - -
+
+## TASK 1. Clone the repository to your local machine
+
+Cloning makes a local copy of the repository for you.  
+
+1. On Bitbucket, click the **Clone** button.
+
+    The system selects the URL for you.
+     
+2. Choose **Clone in SourceTree**.
+
+     SourceTree starts up and displays the **Clone New** dialog.
+	   
+5. Click the **Clone** button.
+    
+    SourceTree clones the repo from Bitbucket and opens it for you.
+    
+
+That's it, you've cloned your first repository!  Keep the repo open and try the next task.
+
+
+changed the file
+
+
+
+- - -
+
+## TASK 2. Make a change 
+
+Make a change in the `sample.html` source file and push the change back to Bitbucket.
+
+1.  Double-click on your tutorial repo.
+2.  Select the **Working Copy** from the left hand navigation.
+3.  Select **Show All** from the dropdown.
+
+    SourceTree shows the files in the working tree.
+    
+4.  Locate the **sample.html** file in the repository.
+    
+    You can view the file in a browser by double-clicking the filename.
+
+5.  Right click the **sample.html** file and choose **Open Terminal**.
+
+     SourceTree opens a terminal window to the directory containing the file.
+ 
+6.  Using your favorite editor, edit the `sample.html` file.
+7.  Change the heading from `My First File` to `Kick over the bucket`. 
+8.  Save and close the file.
+9.  Return to SourceTree. 
+
+    SourceTree changes the file's icon to modified.
+        
+10.  Press **Stage File** or drag the file into the staging area.
+
+	  SourceTree moves the file into the `sample.html` staged area.
+	  
+11.  Choose **Commit**.
+12.  Enter a commit message.
+             
+13.  Press **Commit**.
+
+	  Now, the **Push** icon shows you have a single commit ready to push to your repository.
+
+14.  Press **Push** to send your changes to Bitbucket.
+15.  Press **OK** when prompted.
+16.  After the push finishes, use the **Commits** tab on Bitbucket to view your change.
+  		  	  
+That's it for task 2.  You've completed your first commit and push on Bitbucket! 
+
+Now try it with your own repository.
+
+
+test with develop
+
+<<<<<<< HEAD
+test with experimental repo
+=======
+test after changing experimental branch
+
+TEST 11
+
+
+TEST 12
+>>>>>>> efedde17e5e97b15d1b71a3400856fd325e56301
+
